@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+ 
+}
+body{
+    /* background: #262626; */
+    
+}
+.logo{
+    width:  70px;
+}
+.hsbanner{
+    height:78vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hsbanner_content{
+    text-shadow: 0 0 10px red, 0 0 5px black;
+}
+.search_location{
+   /* border: 2px solid black; */
+   border-bottom: 2px solid black;
+   border-right: 2px solid black;
+   border-left: 2px solid black;
+   border-radius: 0px;
+}
+.red_btn{
+    background-color: red;
+    color: white;
+    border-radius: 0px;
+    border-radius: 0 !important;
+    border: 1px solid black;
+}
+.red_btn:hover{
+    background-color: orange;
+    color:black;
+}
+.badge_prop{
+    cursor: pointer;
+    border-radius:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px 15px;
+    background-color:red;
+    font-weight:400;
+    color: white;
+    border: 1px solid black;
+}
+.badge_prop:hover{
+    background-color: orange;
+    color:black;
+}
+.cards_features{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.heading_h1{
+    margin-bottom: 10px;
+    animation: color-change 1s infinite;
+}
+@keyframes color-change {
+    0% { color: red; }
+    20% { color: blue; }
+    40% { color: green; }
+    60% { color: crimson; }
+    80% { color: black; }
+    100% { color: fuchsia; }
+  }
+
+  .card-img-top{
+    height: 220px;
+  }
+  .card{
+    margin:10px;
+  }
+  #carouselExampleSlidesOnly{
+    border: 2px solid black;
+  }
+
+.icons{
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+.icons img{
+    height: 50px;
+    margin:20px;
+}
+.icons img:hover{
+    border:2px solid red;
+}
+.refer_earn img{
+    height:78vh;
+    width: 65vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    background-color:  red ;
+    color: white;
+}
+ul li a{
+    color: white;
+}
+ul li a:hover{
+    color: black;
+}
+.large_btn{
+    width: 500px;
+    height:50px;
+  
+    
+}
+.container_refer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container_refer img{
+    height: 75vh;
+    width: 65vw;
+}
+
+
+.boxmodel_login{
+    height: 40vh;
+    width: 100vw;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    border:2px solid black;
+}
+.input_details{
+    border: 2px solid white;
+    width: 200px;
+}
+
+#model_content{
+    background-color: red;
+}
